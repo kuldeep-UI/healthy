@@ -1,0 +1,233 @@
+body{
+    background-color: #e3ecc2!important;
+}
+html, body{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    
+}
+
+html{
+
+scroll-behavior: smooth;
+
+}
+/* navbar */
+.navbar li a{
+    margin-left: 20px;
+    color: #fff;
+
+}
+.top-navbar {
+    background-image:  url(../IMG/circel-top-right.png),   url(../IMG/circel-top-bottom.png),url(../IMG/top-shap-first.png),url(../IMG/top-shap-second.png);
+    background-repeat: no-repeat;
+    background-position: right ,  left 70px bottom, left bottom, right top 30%;
+    width: 100%;
+    height: 100vh;
+
+
+}
+.healthy-food{
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    /* height: 100vh; */
+    margin-top: 40px;
+    color: #fff;
+ }
+ .healthy-food h1{
+font-size: 80px;
+font-weight: bolder;
+ }
+ .healthy-food p{
+width: 50%;
+float: none;
+margin: auto;
+ }
+
+ /*Start menu Item */
+ .menu-item{
+    margin-top: 60px;
+    background-image: url(../IMG/Menu-Shape.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding-bottom: 80px;
+ }
+.menu-item h4{
+    text-align: center;
+    text-transform: uppercase;
+    color: #7287ae;
+    font-weight: 900;
+   margin-bottom: 50px;
+}
+.menu-item h6{
+    padding-top: 10px;
+}
+.menu-item img{
+    margin-top: 30px;
+}
+.menu-item .col-lg-3{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin-left: 20px;
+    margin: auto;
+}
+.menu-item img{
+    margin: 0px;
+    padding: 0px;
+}
+.menu-item .btn{
+text-transform: uppercase;
+background-color: #7287ae;
+color: #fff;
+border-radius: 40px;
+padding: 10px 30px;
+display: flex;
+margin: auto;
+}
+ /* End menu Item */
+/* Second-menu-item-start */
+.Second-Menu{
+   padding-top: 80px;
+   width: 80%;
+   float: none;
+   margin: auto;
+  }
+
+.second-menu-text{
+    background-color: #fff!important;
+   justify-content: center!important;
+   align-items: center!important;
+display: flex;
+ }
+.second-menu-text p{
+    width: 50%;
+}
+.second-menu-text .btn{
+    text-transform: uppercase;
+background-color: #7287ae;
+color: #fff;
+border-radius: 40px;
+padding: 10px 30px;
+margin-top: 30px;
+}
+/* Second-menu-item-end */
+/* How-to-open-Start */
+.How-to-open{
+    background-color: #7287ae;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.How-to-open h4{
+    text-transform: uppercase;
+    padding: 50px ;
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+.How-to-open .col-lg-4 h2{
+    background-color: #fff;
+    color: #7287ae;
+    border-radius: 50%;
+    padding: 15px;
+  display: inline;
+}
+.How-to-open .col-lg-4 h3{
+    margin-top: 40px;
+}
+.How-to-open .col-lg-4 p{
+    margin-top: 30px;
+    justify-content: left!important;
+    text-align: left;
+margin-left: 20px;
+}
+/* How-to-open-End */
+
+/* free start */
+.free{
+    background-image: url(../IMG/free.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #7287ae;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.free .text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+.free h1{
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 5px;
+   }
+   .free .get-voucher{
+    text-transform: uppercase;
+    background-color: #7287ae;
+color: #fff;
+border-radius: 40px;
+padding: 10px 50px;
+margin-top: 30px;
+letter-spacing: 7px;
+   }
+/* free end */
+/* augs start */
+.agus{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 70px!important;
+    color: #7287ae;
+}
+.agus p{
+    width: 50%;
+     margin: auto;
+}
+.agus h4{
+    margin-top: 30px;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+.social-icon i{
+    margin: 30px 0px 0px 10px;
+    background-color: #7287ae;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+/* augs end */
+
+/* Start footer */
+.footer{
+    background-image: url(../IMG/bg-blue.png);
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;   
+padding: 100px 0px;
+   }
+.footer .row{
+width: 80%;
+margin: auto;
+justify-content: space-between;
+}
+.footer .row h4, h6{
+text-transform: uppercase;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 10px;
+}
+/* End footer */
